@@ -1,34 +1,77 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>캘린더 한눈에 개인정보처리방침</title>
+<title>Calendar Glance — Privacy Policy / 개인정보처리방침</title>
 <style>
-body{font-family:system-ui,-apple-system,"Malgun Gothic",sans-serif;max-width:720px;margin:40px auto;padding:0 16px;line-height:1.7;color:#222;background:#fff}
+body{font-family:system-ui,-apple-system,"Segoe UI","Malgun Gothic",sans-serif;max-width:720px;margin:40px auto;padding:0 16px;line-height:1.7;color:#222;background:#fff}
 h1{font-size:1.5em}h2{font-size:1.1em;margin-top:1.6em}
+nav a{margin-right:12px}
+hr{margin:48px 0;border:0;border-top:1px solid #ddd}
 </style>
 </head>
 <body>
-<h1>캘린더 한눈에 개인정보처리방침</h1>
-<p>시행일: 2026년 9월 27일</p>
+<nav><a href="#en">English</a><a href="#ko">한국어</a></nav>
 
-<h2>1. 처리하는 정보</h2>
-<p>본 확장 프로그램은 사용자의 구글 캘린더 일정을 사용자 브라우저 안에서 Google Calendar API(읽기 전용 권한)로 조회하여 화면에 표시하는 기능만 수행합니다.</p>
+<section id="en" lang="en">
+<h1>Calendar Glance — Privacy Policy</h1>
+<p>Effective date: September 28, 2026</p>
+
+<h2>1. What the extension does</h2>
+<p>Calendar Glance shows a summary card when you hover over an event in Google Calendar. To do this it reads only the event you are hovering over, through the Google Calendar API with a <strong>read-only</strong> permission (<code>calendar.events.readonly</code>). It cannot create, change or delete events.</p>
+
+<h2>2. Data collection, storage and transfer</h2>
+<p>The developer does not collect, store or transmit any personal data. Event details are requested directly from Google by your browser and shown only on your screen. They are never sent to the developer or to any other server.</p>
+
+<h2>3. Access token and cache</h2>
+<p>The access token issued when you connect your Google account is kept only in the browser's session storage and is removed when you close the browser. Event responses are cached in memory for up to one minute so that repeated hovers are fast.</p>
+
+<h2>4. Attachment preview</h2>
+<p>When you hover over a Google Drive attachment, the extension displays Google Drive's own preview page for that file. The file is loaded by Google Drive under your own Google account; the extension does not read, copy or store its contents.</p>
+
+<h2>5. Settings</h2>
+<p>Only your display settings (hover delay, card width and font size) are saved in Chrome's sync storage. They contain no personal data.</p>
+
+<h2>6. Sharing with third parties</h2>
+<p>User data is not sold or shared with third parties, and is not used for any purpose other than the single purpose described above. It is not used to determine creditworthiness or for lending purposes.</p>
+
+<h2>7. Google API Services User Data Policy</h2>
+<p>Calendar Glance's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>8. Contact</h2>
+<p>big7star@big7star.com</p>
+</section>
+
+<hr>
+
+<section id="ko" lang="ko">
+<h1>캘린더 한눈에 개인정보처리방침</h1>
+<p>시행일: 2026년 9월 28일</p>
+
+<h2>1. 확장 프로그램이 하는 일</h2>
+<p>캘린더 한눈에는 구글 캘린더에서 일정에 마우스를 올리면 요약 카드를 보여 줍니다. 이를 위해 마우스를 올린 일정만 Google Calendar API로 <strong>읽기 전용</strong> 권한(<code>calendar.events.readonly</code>)으로 조회합니다. 일정을 만들거나 고치거나 지울 수 없습니다.</p>
 
 <h2>2. 수집·저장·전송</h2>
-<p>개발자는 어떠한 개인정보도 수집·저장·전송하지 않습니다. 일정 내용은 개발자를 포함한 어떤 외부 서버에도 보내지지 않습니다.</p>
+<p>개발자는 어떠한 개인정보도 수집·저장·전송하지 않습니다. 일정 내용은 사용자 브라우저가 구글에 직접 요청해 화면에만 표시하며, 개발자를 포함한 어떤 외부 서버에도 보내지 않습니다.</p>
 
-<h2>3. 액세스 토큰</h2>
-<p>구글 로그인으로 받은 액세스 토큰은 브라우저 세션 저장소에만 보관되며, 브라우저를 닫으면 삭제됩니다.</p>
+<h2>3. 액세스 토큰과 임시 보관</h2>
+<p>구글 계정 연결로 받은 액세스 토큰은 브라우저 세션 저장소에만 보관되며 브라우저를 닫으면 삭제됩니다. 같은 일정을 빠르게 다시 보여 주기 위해 조회 결과를 메모리에 최대 1분간 보관합니다.</p>
 
-<h2>4. 설정값</h2>
-<p>카드 표시 지연 시간·너비·글자 크기 설정만 브라우저의 동기화 저장소(chrome.storage.sync)에 저장됩니다. 개인정보는 포함되지 않습니다.</p>
+<h2>4. 첨부파일 미리보기</h2>
+<p>구글 드라이브 첨부파일에 마우스를 올리면 그 파일의 구글 드라이브 기본 미리보기 화면을 띄웁니다. 파일은 사용자 본인의 구글 계정으로 구글 드라이브가 직접 불러오며, 확장 프로그램은 파일 내용을 읽거나 복사·보관하지 않습니다.</p>
 
-<h2>5. 제3자 제공</h2>
-<p>사용자 데이터를 판매하거나 제3자에게 제공하지 않으며, 확장 프로그램의 단일 목적 외에는 사용하지 않습니다.</p>
+<h2>5. 설정값</h2>
+<p>카드 표시 지연 시간·너비·글자 크기 설정만 크롬 동기화 저장소에 저장됩니다. 개인정보는 포함되지 않습니다.</p>
 
-<h2>6. 문의</h2>
+<h2>6. 제3자 제공</h2>
+<p>사용자 데이터를 판매하거나 제3자에게 제공하지 않으며, 위 단일 목적 외에는 사용하지 않습니다. 신용도 판단이나 대출 목적으로 사용하지 않습니다.</p>
+
+<h2>7. Google API 서비스 사용자 데이터 정책</h2>
+<p>캘린더 한눈에가 Google API로부터 받은 정보를 사용·전송하는 방식은 제한적 사용(Limited Use) 요건을 포함한 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>을 준수합니다.</p>
+
+<h2>8. 문의</h2>
 <p>big7star@big7star.com</p>
+</section>
 </body>
 </html>
